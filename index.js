@@ -20,7 +20,10 @@ class Route {
     return streetDistance + avenueDistance;
   }
   estimatedTime() {
-    if peak ===
-    return this.blocksTravelled()/3;
+    if peak === true {
+      this.blocksTravelled()/3;
+    else
+      this.blocksTravelled()/2;
+    }
   }
 } 
