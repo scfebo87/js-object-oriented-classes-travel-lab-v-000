@@ -8,3 +8,6 @@ class Driver {
   }
 }
 
+class Route {
+  constructor()
+}
