@@ -1,9 +1,9 @@
 class Driver {
-  constructor(name, day) {
+  constructor(name, date) {
     this.name = name;
   }
   startDate() {
-    
+    return Date(date);
   }
 }
 
