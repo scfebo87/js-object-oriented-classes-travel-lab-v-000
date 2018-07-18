@@ -3,7 +3,7 @@ class Driver {
     this.name = name;
   }
   startDate() {
-    return Date.parse(date);
+    return new Date(date);
   }
 }
 
