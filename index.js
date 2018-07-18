@@ -21,5 +21,5 @@ class Route {
   }
   estimatedTime() { 
     return this.blocksTravelled() * 3;
-}
-}
+  }
+} 
