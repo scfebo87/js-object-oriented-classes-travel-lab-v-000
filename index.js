@@ -20,6 +20,6 @@ class Route {
     return streetDistance + avenueDistance;
   }
   estimatedTime() { 
-    return this.blocksTravelled() * 3;
+    return this.blocksTravelled()/3;
   }
 } 
