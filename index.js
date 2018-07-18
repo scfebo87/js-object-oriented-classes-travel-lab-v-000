@@ -19,7 +19,7 @@ class Route {
     const avenueDistance = (eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginningLocation.horizontal)); 
     return streetDistance + avenueDistance;
   }
-  estimatedTime() {
+  estimatedTime(peak) {
     if (peak === true) {
       this.blocksTravelled()/3;
     }
